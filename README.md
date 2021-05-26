@@ -12,6 +12,13 @@ I.e. example you can see listener is supposed to be closed but then consumes a m
 
 You can change clientId to different value in MessageTestListener and rerun tests to see them passed.
 
+## Archive folder
+Look into archive folder to see example logs. I produced these files locally and committed them.
+Application doesn't write to archive folder.
+
+archive/differentClientIds.txt - in this log you can see expected behaviour. Listener id=ebce8f72-5ed4-4d28-ae56-10aaa8a09752 is disposed before executing second test.
+archive/sameClientIds.txt - in this log you can see listener id=4bb7b57d-e963-423b-b0d6-cb60986360d2 is supposed to be disposed but then consumes message.
+
 ## How application works
 Application has `MessageController` with @Post method which publish message to Kafka topic.
 Application has MessageKafkaListener which consumes messages from the topic.
