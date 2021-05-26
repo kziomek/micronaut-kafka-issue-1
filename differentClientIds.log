@@ -1,0 +1,14 @@
+    MC Started test A
+    MC A message listener id=ebce8f72-5ed4-4d28-ae56-10aaa8a09752
+    MC App Listener (id=6755625f-db11-4315-8601-cfe4cb0b6d7e, groupId=message-consumer-group)  onMessage Message(id=1, content=a content A)
+    MC Test Listener (id=ebce8f72-5ed4-4d28-ae56-10aaa8a09752, groupId=test-kafka-group-1) onMessage Message(id=1, content=a content A)
+    MC Test Listener (id=ebce8f72-5ed4-4d28-ae56-10aaa8a09752, groupId=test-kafka-group-1) containsMessageMatching size 1
+    MC Finished test A
+    MC Test Listener (id=ebce8f72-5ed4-4d28-ae56-10aaa8a09752, groupId=test-kafka-group-1) preDestroy() invoked 
+    MC Started test B
+    MC B message listener id=993839e9-f735-44b0-ae23-1fe90fbc3d6d
+    MC App Listener (id=abe38ce4-b6ce-4fc1-acac-50be8972e823, groupId=message-consumer-group)  onMessage Message(id=2, content=a content B)
+    MC Test Listener (id=993839e9-f735-44b0-ae23-1fe90fbc3d6d, groupId=test-kafka-group-1) onMessage Message(id=2, content=a content B)
+    MC Test Listener (id=993839e9-f735-44b0-ae23-1fe90fbc3d6d, groupId=test-kafka-group-1) containsMessageMatching size 1
+    MC Finished test B
+    MC Test Listener (id=993839e9-f735-44b0-ae23-1fe90fbc3d6d, groupId=test-kafka-group-1) preDestroy() invoked 

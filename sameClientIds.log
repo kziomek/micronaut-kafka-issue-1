@@ -1,0 +1,113 @@
+    MC Started test A
+    MC A message listener id=4bb7b57d-e963-423b-b0d6-cb60986360d2
+    MC App Listener (id=c3c8db63-0221-4524-9344-1521b8e27f15, groupId=message-consumer-group)  onMessage Message(id=1, content=a content A)
+    MC Test Listener (id=4bb7b57d-e963-423b-b0d6-cb60986360d2, groupId=test-kafka-group-1) onMessage Message(id=1, content=a content A)
+    MC Test Listener (id=4bb7b57d-e963-423b-b0d6-cb60986360d2, groupId=test-kafka-group-1) containsMessageMatching size 1
+    MC Finished test A
+    MC Test Listener (id=4bb7b57d-e963-423b-b0d6-cb60986360d2, groupId=test-kafka-group-1) preDestroy() invoked 
+    MC Started test B
+    MC B message listener id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8
+    MC Test Listener (id=4bb7b57d-e963-423b-b0d6-cb60986360d2, groupId=test-kafka-group-1) onMessage Message(id=2, content=a content B)
+    MC App Listener (id=454340c0-1da8-4db0-8d6a-6fde69e36ad8, groupId=message-consumer-group)  onMessage Message(id=2, content=a content B)
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) containsMessageMatching size 0
+    MC Finished test B
+    MC Test Listener (id=1b8354e7-2a68-453c-9c1c-36b04a6fbfc8, groupId=test-kafka-group-1) preDestroy() invoked 

@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: demo
+
+application:
+  kafka:
+    messages:
+      topic: messages
+      enabled: true
+      client-id: message-consumer-client
+#      group-id: ${random.shortuuid}
+      group-id: message-consumer-group
+
+kafka.bootstrap.servers: localhost:9092
